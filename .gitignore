@@ -1,0 +1,16 @@
+# Rahasia & kredensial - jangan pernah di-commit
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Sistem / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+
+# Foto mentah yang belum dibersihkan EXIF-nya
+images/_raw/
